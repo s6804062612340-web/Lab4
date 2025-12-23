@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	char s;
+	int i;
+	scanf("%c%d",&s,&i);
+	for(int n=1 ;n <= i; n++){
+		printf("%c",s);
+	}
+}
